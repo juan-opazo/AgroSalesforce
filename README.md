@@ -29,4 +29,11 @@ sfdx force:source:retrieve -m CustomTab
 
 sfdx force:source:retrieve -m CustomMetadata
 
+## Pull Application from ScratchOrg
+
+sfdx force:source:retrieve -m CustomApplication
+
 sfdx force:source:retrieve -m [FEATURE]:[NAME]
+
+## Push Source and Override Conflicts
+sfdx force:source:push -f
