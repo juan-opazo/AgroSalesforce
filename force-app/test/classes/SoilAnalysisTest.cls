@@ -5,7 +5,7 @@ public with sharing class SoilAnalysisTest {
         
     // }
     @isTest
-    public static void confirmationEmailSentSuccess() {
+    static void testConfirmationEmailSentSuccess() {
         SoilAnalysis__c sa = new SoilAnalysis__c(pH__c = 7);
         test.startTest();
         insert sa;
