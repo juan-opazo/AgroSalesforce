@@ -43,6 +43,11 @@ sfdx force:source:retrieve -m Layout
 
 sfdx force:source:retrieve -m StaticResource
 
+## Pull Picklist value set from ScratchOrg
+
+sfdx force:source:retrieve -m GlobalValueSet
+
+
 ## Badge Styling
 
 https://www.lightningdesignsystem.com/components/badges/#Styling-Hooks-Overview

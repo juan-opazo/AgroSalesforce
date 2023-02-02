@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Apples</fullName>
+        <default>false</default>
+        <label>Apples</label>
+    </customValue>
+    <customValue>
+        <fullName>Bananas</fullName>
+        <default>false</default>
+        <label>Bananas</label>
+    </customValue>
+    <customValue>
+        <fullName>Lettuces</fullName>
+        <default>false</default>
+        <label>Lettuces</label>
+    </customValue>
+    <customValue>
+        <fullName>Oranges</fullName>
+        <default>false</default>
+        <label>Oranges</label>
+    </customValue>
+    <customValue>
+        <fullName>Passion Fruits</fullName>
+        <default>false</default>
+        <label>Passion Fruits</label>
+    </customValue>
+    <masterLabel>Crop Values</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
