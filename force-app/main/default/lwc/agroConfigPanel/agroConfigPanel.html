@@ -18,28 +18,38 @@
                     </h2>
                 </div>
                 <div class="slds-no-flex">
-                    <button class="slds-button slds-button_neutral" onclick={updateSAEmailParams}>Save</button>
+                    <button id="refreshButton" class={refreshButtonClass} title="Refresh" onclick={handleRefresh}>
+                        <img src={refreshIcon} class="icon-style">
+                        <span class="slds-assistive-text">Refresh</span>
+                    </button>
                 </div>
             </header>
         </div>
         <div class="slds-card__body slds-card__body_inner">
-            <div class="slds-form">
-                <div class="slds-form-element slds-form-element_horizontal slds-has-error">
-                    <label class="slds-form-element__label" for="horizontal-input-id-01"><abbr class="slds-required" title="required">* </abbr>Recipient Email</label>
-                    <div class="slds-form-element__control">
-                        <input type="text" id="horizontal-input-id-01" placeholder="test@test.com" class="slds-input" />
+            <div class="slds-m-top_medium slds-m-bottom_x-large">
+                <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                    Badges with custom <code>label</code> attribute values.
+                </h2>
+        
+                <!-- Badge: basic -->
+                <template if:true={saEmailParams.isActive}>
+                    <lightning-badge label="Activated" icon-name="utility:check" icon-positio="end" class="badge-success"></lightning-badge>
+                </template>
+                <template if:false={saEmailParams.isActive}>
+                    <lightning-badge label="Activated" icon-name="utility:close" icon-positio="end" class="badge-error"></lightning-badge>
+                </template>
+
+                <!-- Custom metadata Info -->
+                <article class="slds-tile">
+                    <div class="slds-tile__detail">
+                      <dl class="slds-list_horizontal slds-wrap">
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="First Label">Sender Display Name:</dt>
+                        <dd class="slds-item_detail slds-truncate" title="Description for first label">{saEmailParams.senderDisplayName}</dd>
+                        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Second Label">Reply To:</dt>
+                        <dd class="slds-item_detail slds-truncate" title="Description for second label">{saEmailParams.replyTo}</dd>
+                      </dl>
                     </div>
-                    <div class="slds-form-element__help" id="form-error-01">Enter a value.</div>
-                </div>
-                <div class="slds-form-element slds-form-element_horizontal ">
-                    <div class="slds-checkbox">
-                        <input type="checkbox" name="default" id="checkbox-SA-send-email" data-id="checkbox-SA-send-email" value="checkbox-SA-send-email" />
-                        <label class="slds-checkbox__label" for="checkbox-SA-send-email">
-                          <span class="slds-checkbox_faux"></span>
-                          <span class="slds-form-element__label">Send email when Soil Analysis is created</span>
-                        </label>
-                    </div>
-                </div>
+                  </article>
             </div>
         </div>
         <footer class="slds-card__footer">

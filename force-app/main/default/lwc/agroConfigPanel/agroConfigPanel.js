@@ -1,26 +1,29 @@
 import { LightningElement, wire } from 'lwc';
+import SLDS_ICONS from '@salesforce/resourceUrl/SLDS_Icons';
+import { refreshApex } from '@salesforce/apex';
 import getSAEmailParams from '@salesforce/apex/SoilAnalysisController.getSAEmailParams';
-import updateSAEmailParams from '@salesforce/apex/SoilAnalysisController.updateSAEmailParams';
 
 export default class AgroConfigPanel extends LightningElement {
+    currentRotation = 0;
+    refreshIcon = `${SLDS_ICONS}/refresh.svg`;
+    refreshButtonClass = `slds-button slds-button_icon rotate-when-active`;
+    wiredData;
     saEmailParams;
 
     @wire(getSAEmailParams)
-    wiredCustomMetadata({ err, data }) {
-        if (data) {
-            this.saEmailParams = data;
-            let checkboxSASendEmail = this.template.querySelector('[data-id="checkbox-SA-send-email"]');
-            checkboxSASendEmail.checked = this.saEmailParams.isActive;
-            console.log(data);
+    wiredCustomMetadata(result) {
+        this.wiredData = result;
+        if (result.data) {
+            this.saEmailParams = result.data;
+            console.log(result.data);
         } else {
-            console.error(err);
+            console.error(result.error);
         }
-    } 
-    handleActivateEmailSending(event) {
-        let checkboxSASendEmail = this.template.querySelector('[data-id="checkbox-SA-send-email"]');
-        checkboxSASendEmail.checked = event.target.checked;
     }
-    updateSAEmailParams(event) {
-        updateSAEmailParams(this.saEmailParams);
+
+    handleRefresh() {
+        this.currentRotation += 360;
+        this.template.querySelector('.rotate-when-active').style.transform = `rotate(${this.currentRotation}deg)`;
+        refreshApex(this.wiredData);
     }
 }

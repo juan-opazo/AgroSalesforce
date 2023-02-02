@@ -33,6 +33,18 @@ sfdx force:source:retrieve -m CustomMetadata
 
 sfdx force:source:retrieve -m CustomApplication
 
+## Pull Layouts from ScratchOrg
+
+sfdx force:source:retrieve -m Layout
+
+## Pull Static Resources from ScratchOrg
+
+sfdx force:source:retrieve -m StaticResource
+
+## Badge Styling
+
+https://www.lightningdesignsystem.com/components/badges/#Styling-Hooks-Overview
+
 sfdx force:source:retrieve -m [FEATURE]:[NAME]
 
 ## Push Source and Override Conflicts
