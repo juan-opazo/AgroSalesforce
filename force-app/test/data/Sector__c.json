@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Sector__c",
+                "referenceId": "Sector__cRef1"
+            },
+            "Name": "Campo A",
+            "Area__c": "2",
+            "Crop__c": "Bananas"
+        },
+        {
+            "attributes": {
+                "type": "Sector__c",
+                "referenceId": "Sector__cRef2"
+            },
+            "Name": "Campo B",
+            "Area__c": "4",
+            "Crop__c": "Passion Fruits"
+        },
+        {
+            "attributes": {
+                "type": "Sector__c",
+                "referenceId": "Sector__cRef3"
+            },
+            "Name": "Campo C",
+            "Area__c": "3",
+            "Crop__c": "Apples"
+        }
+    ]
+}

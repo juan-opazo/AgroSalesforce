@@ -21,6 +21,7 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>SoilAnalysis__c</tabs>
+    <tabs>Sector__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>AgroApp_UtilityBar</utilityBar>
 </CustomApplication>
