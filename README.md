@@ -21,6 +21,8 @@ The `sfdx-project.json` file contains useful configuration information for your 
 
 sfdx force:source:retrieve -m CustomObject
 
+validation rules are included when importing custom object
+
 ## Pull Custom Tabs Metadata from ScratchOrg
 
 sfdx force:source:retrieve -m CustomTab
