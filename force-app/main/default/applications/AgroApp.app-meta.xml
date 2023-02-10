@@ -22,6 +22,8 @@
     <tabs>standard-home</tabs>
     <tabs>SoilAnalysis__c</tabs>
     <tabs>Sector__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>AgroApp_UtilityBar</utilityBar>
 </CustomApplication>

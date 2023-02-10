@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef1"
+            },
+            "Name": "SA-0002",
+            "Date_Requested__c": "2023-02-08",
+            "pH__c": 3
+        }
+    ]
+}

@@ -18,6 +18,7 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
 
 ## Pull Custom Object Metadata from ScratchOrg
+https://salesforce.stackexchange.com/questions/199177/salesforce-dx-fails-to-pull-report-and-dashboard-metadata
 
 sfdx force:source:retrieve -m CustomObject
 
@@ -47,6 +48,14 @@ sfdx force:source:retrieve -m StaticResource
 
 sfdx force:source:retrieve -m GlobalValueSet
 
+## Pull Reports and Dashboards set from ScratchOrg
+For some reason did not work when executing
+sfdx force:source:retrieve -m Report
+So try retrieving the specific report such as
+sfdx force:source:retrieve -m Report:AgroReports/Sectors_with_SoilAnalysis_Report
+https://salesforce.stackexchange.com/questions/353499/how-to-retrieve-salesforce-reports-in-a-subfolder-using-vs-code
+In case of dashboards, if the look up for the value of the DeveloperName field
+sfdx force:source:retrieve -m Dashboard:AgroDashboards/ZiqqorDFgzQZLdlusngGvkumrSGyzD
 
 ## Badge Styling
 
