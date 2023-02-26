@@ -8,7 +8,7 @@ export default class AgroConfigPanel extends LightningElement {
     refreshIcon = `${SLDS_ICONS}/refresh.svg`;
     refreshButtonClass = `slds-button slds-button_icon rotate-when-active`;
     wiredData;
-    saEmailParams;
+    saEmailParams = {};
 
     @wire(getSAEmailParams)
     wiredCustomMetadata(result) {

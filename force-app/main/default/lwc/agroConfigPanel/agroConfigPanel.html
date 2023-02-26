@@ -33,10 +33,10 @@
         
                 <!-- Badge: basic -->
                 <template if:true={saEmailParams.isActive}>
-                    <lightning-badge label="Activated" icon-name="utility:check" icon-positio="end" class="badge-success"></lightning-badge>
+                    <lightning-badge label="Send Email Activated" icon-name="utility:check" icon-positio="end" class="badge-success"></lightning-badge>
                 </template>
                 <template if:false={saEmailParams.isActive}>
-                    <lightning-badge label="Activated" icon-name="utility:close" icon-positio="end" class="badge-error"></lightning-badge>
+                    <lightning-badge label="Send Email Deactivated" icon-name="utility:close" icon-positio="end" class="badge-error"></lightning-badge>
                 </template>
 
                 <!-- Custom metadata Info -->

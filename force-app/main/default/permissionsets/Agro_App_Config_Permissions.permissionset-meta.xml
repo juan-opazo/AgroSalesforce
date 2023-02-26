@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>AgroApp</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>Org_Setting__mdt</name>
+    </customMetadataTypeAccesses>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Agro App Config Permissions</label>
+    <tabSettings>
+        <tab>Sector__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>SoilAnalysis__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
