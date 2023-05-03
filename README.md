@@ -2,6 +2,16 @@
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
+## Considerations If Using Visual Studio Code
+
+### Install Salesforce CLI
+
+[Salesforce CLI for Developers](https://developer.salesforce.com/tools/sfdxcli)
+
+### Install Salesforce Extensions
+
+<img width="385" alt="Screenshot 2023-05-03 at 12 47 04" src="https://user-images.githubusercontent.com/61069266/236001508-39fab681-31b3-4e47-91d1-cbf021ec2c58.png">
+
 ## How Do You Plan to Deploy Your Changes?
 
 Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
