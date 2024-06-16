@@ -4,9 +4,9 @@
     <description>Area of the sector in ha</description>
     <externalId>false</externalId>
     <label>Area</label>
-    <precision>12</precision>
+    <precision>10</precision>
     <required>true</required>
-    <scale>4</scale>
+    <scale>2</scale>
     <trackTrending>false</trackTrending>
     <type>Number</type>
     <unique>false</unique>

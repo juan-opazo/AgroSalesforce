@@ -5,9 +5,198 @@
                 "type": "SoilAnalysis__c",
                 "referenceId": "SoilAnalysis__cRef1"
             },
-            "Name": "SA-0002",
-            "Date_Requested__c": "2023-02-08",
-            "pH__c": 3
+            "Date_Requested__c": "2022-01-02",
+            "pH__c": "7.2",
+            "Sector__c": "a00ak00000CGVybAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef2"
+            },
+            "Date_Requested__c": "2022-01-15",
+            "pH__c": "6.8",
+            "Sector__c": "a00ak00000CGVybAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef3"
+            },
+            "Date_Requested__c": "2022-02-01",
+            "pH__c": "7.6",
+            "Sector__c": "a00ak00000CGVybAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef4"
+            },
+            "Date_Requested__c": "2022-03-01",
+            "pH__c": "7.1",
+            "Sector__c": "a00ak00000CGVybAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef5"
+            },
+            "Date_Requested__c": "2022-03-15",
+            "pH__c": "6.9",
+            "Sector__c": "a00ak00000CGVybAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef6"
+            },
+            "Date_Requested__c": "2022-04-01",
+            "pH__c": "7.3",
+            "Sector__c": "a00ak00000CGVybAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef7"
+            },
+            "Date_Requested__c": "2022-05-01",
+            "pH__c": "7.4",
+            "Sector__c": "a00ak00000CGVybAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef8"
+            },
+            "Date_Requested__c": "2022-05-15",
+            "pH__c": "7.0",
+            "Sector__c": "a00ak00000CGVycAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef9"
+            },
+            "Date_Requested__c": "2022-06-01",
+            "pH__c": "7.5",
+            "Sector__c": "a00ak00000CGVycAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef10"
+            },
+            "Date_Requested__c": "2022-06-15",
+            "pH__c": "7.1",
+            "Sector__c": "a00ak00000CGVycAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef11"
+            },
+            "Date_Requested__c": "2022-12-01",
+            "pH__c": "7.7",
+            "Sector__c": "a00ak00000CGVycAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef12"
+            },
+            "Date_Requested__c": "2022-12-15",
+            "pH__c": "7.5",
+            "Sector__c": "a00ak00000CGVycAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef13"
+            },
+            "Date_Requested__c": "2021-01-02",
+            "pH__c": "7.2",
+            "Sector__c": "a00ak00000CGVycAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef14"
+            },
+            "Date_Requested__c": "2021-01-15",
+            "pH__c": "6.8",
+            "Sector__c": "a00ak00000CGVycAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef15"
+            },
+            "Date_Requested__c": "2021-02-01",
+            "pH__c": "7.6",
+            "Sector__c": "a00ak00000CGVydAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef16"
+            },
+            "Date_Requested__c": "2021-03-01",
+            "pH__c": "7.1",
+            "Sector__c": "a00ak00000CGVydAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef17"
+            },
+            "Date_Requested__c": "2021-03-15",
+            "pH__c": "6.9",
+            "Sector__c": "a00ak00000CGVydAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef18"
+            },
+            "Date_Requested__c": "2021-04-01",
+            "pH__c": "7.3",
+            "Sector__c": "a00ak00000CGVydAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef19"
+            },
+            "Date_Requested__c": "2021-05-01",
+            "pH__c": "7.4",
+            "Sector__c": "a00ak00000CGVydAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef20"
+            },
+            "Date_Requested__c": "2021-05-15",
+            "pH__c": "7.0",
+            "Sector__c": "a00ak00000CGVydAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef21"
+            },
+            "Date_Requested__c": "2021-06-01",
+            "pH__c": "7.5",
+            "Sector__c": "a00ak00000CGVydAAH"
+        },
+        {
+            "attributes": {
+                "type": "SoilAnalysis__c",
+                "referenceId": "SoilAnalysis__cRef22"
+            },
+            "Date_Requested__c": "2021-12-01",
+            "pH__c": "7.7",
+            "Sector__c": "a00ak00000CGVydAAH"
         }
     ]
 }

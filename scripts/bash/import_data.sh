@@ -1,0 +1,1 @@
+sf data import tree --files ./force-app/test/data/Sector__c.json,./force-app/test/data/SoilAnalysis__c.json
