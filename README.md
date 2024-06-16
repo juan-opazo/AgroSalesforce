@@ -16,6 +16,13 @@ Now that you’ve created a Salesforce DX project, what’s next? Here are some 
 
 Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
+### New command: sf
+
+sf project deploy start
+
+# Como empezar a usar el proyecto
+1. Asignar permission sets a usuario de interés
+
 ## Configure Your Salesforce DX Project
 
 The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
@@ -75,3 +82,13 @@ sfdx force:source:retrieve -m [FEATURE]:[NAME]
 
 ## Push Source and Override Conflicts
 sfdx force:source:push -f
+
+
+# Errores
+
+## Required field is missingÑ sharedTo
+
+Esto puede pasar al momento de deployar este proyecto por primera vez a una nueva org.
+Por ahora, la metadata para los folders de Dashboards y Reports tienen comentada la línea
+con el atributo SharedTo, ya que necesita un username.
+Intenta buscar un username en la nueva org y pegarla en esa línea, luego descomenta y vuelve a deployar.
