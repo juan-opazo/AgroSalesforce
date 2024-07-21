@@ -5,5 +5,10 @@
         <sharedTo>juanopazo@agrosalesforce20240615.com</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>nancybarboza1364@opabar.salesforce.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
     <name>Agro Dashboards</name>
 </DashboardFolder>
